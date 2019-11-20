@@ -1,0 +1,46 @@
+@import "../fonts/butler/stylesheet.css";
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',  sans-serif;
+  font-size: 17px;
+  line-height: 1.52947;
+  font-weight: 400;
+  letter-spacing: -0.021em;
+  font-style: normal;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Butler';
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: 0.008em;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.20849;
+  font-weight: 500;
+  letter-spacing: 0.015em;
+}
+
+h3.leftMargin {
+  margin-block-start: 0;
+}
+
+p + *,
+ul + *,
+ol + * {
+  margin-top: 0.7em;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}

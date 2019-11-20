@@ -1,0 +1,118 @@
+@import "./typography.css";
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: white;
+    background-color: #222;
+  }
+}
+
+
+body {
+  transition: all 200ms ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 5rem;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+
+div#content {
+  margin-left: 6rem;
+  margin-right: 2.5rem;
+  padding: 3rem 0 18rem 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+#profilePic {
+  height: 6rem;
+  margin-left: -7rem;
+}
+.experience {
+  width: 100%;
+  justify-content: stretch;
+  align-items: stretch;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.details {
+  justify-content: space-between;
+  align-content: space-between;
+  flex-grow: 5;
+}
+
+.alignStart {
+  align-self: flex-start;
+}
+
+.alignEnd {
+  align-self: flex-end;
+  text-align: end;
+}
+
+@media (min-width: 500px) {
+  .col.right {
+    text-align: end;
+  }
+}
+@media (max-width: 499px) {
+  #content {
+    max-width: 290px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .details.row {
+    flex-direction: column;
+  }
+  .experience.row {
+    flex-direction: column;
+  }
+}
+
+
+.description {
+  padding-block-start: 10px;
+}
+
+.col.icon {
+  margin: 0px 10px 10px 0px;
+  align-items: flex-start;
+  /* margin-right: 10px;
+  margin-bottom: 10px; */
+  height: 100%;
+}
+
+img.icon {
+  height: 3.5rem;
+  margin-left: -4.5rem;
+  text-align: right;
+  float: left;
+  position: absolute;
+}
+
+.leftMargin {
+  margin-left: -12rem;
+  text-align: right;
+  width: 11rem;
+  float: left;
+}
+
+/* section {
+  display: flex;
+  flex-direction: row;
+} */
