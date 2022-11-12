@@ -1,13 +1,5 @@
 @import "./typography.css";
 
-/* @media (prefers-color-scheme: dark) {
-  body {
-    color: white;
-    background-color: #222;
-  }
-} */
-
-
 body {
   transition: all 200ms ease-in-out;
   display: flex;
@@ -15,6 +7,10 @@ body {
   align-items: center;
   justify-items: center;
   padding-bottom: 5rem;
+}
+
+footer {
+  color: whitesmoke;
 }
 
 .row {
@@ -111,8 +107,3 @@ img.icon {
   width: 11rem;
   float: left;
 }
-
-/* section {
-  display: flex;
-  flex-direction: row;
-} */
