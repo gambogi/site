@@ -1,0 +1,23 @@
+{
+    "subject": "acct:m@gambogi.com",
+    "aliases": [
+        "https://sfba.social/@mgambogi",
+        "https://sfba.social/users/mgambogi"
+    ],
+    "links": [
+        {
+            "rel": "https://webfinger.net/rel/profile-page",
+            "type": "text/html",
+            "href": "https://sfba.social/@mgambogi"
+        },
+        {
+            "rel": "self",
+            "type": "application/activity+json",
+            "href": "https://sfba.social/users/mgambogi"
+        },
+        {
+            "rel": "https://osstatus.org/schema/1.0/subscribe",
+            "template": "https://sfba.social/authorize_interaction?uri={uri}"
+        }
+    ]
+}
